@@ -1235,6 +1235,39 @@ section,
   color: var(--accent-color);
 }
 
+/* Responsive styles for screens 768px and smaller */
+@media screen and (max-width: 768px) {
+
+  #services .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    position: fixed;
+  
+  }
+
+  .services .service-item {
+    padding: 20px;
+  }
+
+  .services .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .services .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .services .col-xl-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
